@@ -337,12 +337,12 @@ const Attendance: React.FC = () => {
               ← Back to Subjects
             </Button>
           )}
-          {isFaculty && selectedStudent && (
+          {isFaculty && (
             <Button onClick={() => {
               setFormData(prev => ({ 
                 ...prev, 
                 subjectId: selectedSubject?.subject_id.toString() || '',
-                studentId: selectedStudent.id.toString()
+                // studentId: selectedStudent.id.toString()
               }));
               setShowMarkModal(true);
             }}>

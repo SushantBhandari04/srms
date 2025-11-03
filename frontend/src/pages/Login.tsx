@@ -80,7 +80,7 @@ const Login: React.FC = () => {
 
           <div className="mt-6 text-center text-sm text-gray-600">
             <p>Demo Credentials:</p>
-            <p className="text-xs mt-1">Admin: admin@srms.com / Password: admin123</p>
+            <p className="text-xs mt-1">Admin: admin@gmail.com / Password: admin123</p>
           </div>
         </CardContent>
       </Card>
